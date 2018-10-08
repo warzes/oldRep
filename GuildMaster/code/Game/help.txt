@@ -1,0 +1,25 @@
+﻿terminal_print(2, 7, L"a").width;
+
+terminal_print(2, 3, "[color=black][bkcolor=gray]grey[/bkcolor][/color]");
+terminal_print(2, 7, L"a[+][color=red]#[/color]");
+
+result = terminal_read_wstr(6, 5, buffer, max_chars);
+
+if (terminal_check(TK_WCHAR))
+	character = terminal_state(TK_WCHAR);
+
+//terminal_print
+//(
+//5, 11,
+//L"   ┌────────┐  \n"
+//L"   │!......s└─┐\n"
+//L"┌──┘........s.│\n"
+//L"│............>│\n"
+//L"│...........┌─┘\n"
+//L"│<.@..┌─────┘  \n"
+//L"└─────┘        \n"
+//);
+
+
+
+std::bind(&GuildWindow::test, this, std::placeholders::_1, std::placeholders::_2) - два аргумента

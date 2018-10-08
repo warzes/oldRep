@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Engine.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="Data.cpp" />
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="Date.cpp">
+      <Filter>Data</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="GuildWindow.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Quest.cpp">
+      <Filter>Data</Filter>
+    </ClCompile>
+    <ClCompile Include="StorageGuild.cpp">
+      <Filter>Data</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Engine.h">
+      <Filter>main</Filter>
+    </ClInclude>
+    <ClInclude Include="Color.h">
+      <Filter>main</Filter>
+    </ClInclude>
+    <ClInclude Include="..\depend\BearLibTerminal.h">
+      <Filter>main</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="Data.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="Date.h">
+      <Filter>Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.h">
+      <Filter>main</Filter>
+    </ClInclude>
+    <ClInclude Include="IMainWindow.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="GuildWindow.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Quest.h">
+      <Filter>Data</Filter>
+    </ClInclude>
+    <ClInclude Include="StorageGuild.h">
+      <Filter>Data</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="main">
+      <UniqueIdentifier>{b3526af2-740d-4c52-8cc9-e460f175811f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data">
+      <UniqueIdentifier>{da940f0e-6f20-4304-9b14-40c0b862df78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{9700fbb7-2922-4578-a525-75f75de16455}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="help.txt">
+      <Filter>main</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\depend\BearLibTerminal.lib">
+      <Filter>main</Filter>
+    </Library>
+  </ItemGroup>
+</Project>
